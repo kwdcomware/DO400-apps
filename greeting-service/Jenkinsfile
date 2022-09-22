@@ -11,7 +11,7 @@ pipeline{
  sh '''
 
  oc project tjqwpo-deploy-strategies
- oc start-build greee --follow --wait
+ oc start-build greeting-service --follow --wait
 
  '''
 
