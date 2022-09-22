@@ -9,10 +9,8 @@ pipeline{
  steps {
 
  sh '''
-
  oc project tjqwpo-deploy-strategies
  oc start-build greeting-service --follow --wait
-
  '''
 
  }
